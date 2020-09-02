@@ -1,1 +1,113 @@
-Colar Academy
+/* Universal Stylings */
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-size: 16px;
+    font-family: 'Source Serif Pro', serif;
+    color: #4A4A4A;
+}
+a {
+    transition: all 0.3s ease 0s;
+}
+a:link {text-decoration: none;color: #4A4A4A;}
+a:hover {text-decoration: none;color: #4A4A4A;}
+a:visited {text-decoration: none;color: #4A4A4A;}
+a:active {text-decoration: none;color: #4A4A4A;}
+
+/*
+.image-container {
+    overflow: hidden;
+}
+*/
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+    padding: 20px 3%;
+    background-color: white;
+    border-bottom: gray 1px solid;
+}
+.title {
+    display: inline-flex;
+    align-items: center;
+    cursor: pointer;
+    float: left;
+}
+#brand strong {
+    font-weight: bolder;
+}
+#brand span {
+    margin-left: -1%;
+    color: grey;
+}
+.navigation {
+    display: flex;
+    justify-content: space-between;
+}
+
+ul {
+    list-style-type: none;
+}
+ul li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+
+
+ul li a:hover {
+    color: #4A4A4A;
+    color: green;
+    text-decoration: none;
+}
+button {
+    color: ivory;
+    background-color: grey;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 5px 9px;
+}
+button:hover {
+    opacity: 0.5;
+}
+.desktop {
+    display: flex;
+
+}
+@media only screen and (max-width: 768px) {
+    .desktop {
+        display: none;
+    }
+}
+.mobile {
+    display: flex;
+    justify-content: ;
+}
+@media only screen and (min-width: 768px) {
+    .mobile {
+        display: none;
+    }
+
+}
+
+i {
+    color: black;
+    font-size: 22px;
+}
+
+
+.main {
+    padding-top: 80px;
+
+}
+
