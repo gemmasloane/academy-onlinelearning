@@ -10,7 +10,7 @@
 
 <body>
     <header>
-        <div class="title">
+        <a class="title" href="#banner">
             <div id="logo">
                 <img src="resources/images/ic-logo.svg" alt="Business Logo">
             </div>
@@ -18,11 +18,11 @@
                 <strong>WANTING</strong>
                 <span>ACADEMY</span>
             </div>
-        </div>
+        </a>
         <div class="navigation">
             <nav>
                 <ul class="desktop">
-                    <li><a href="#">On campus</a></li>
+                    <li><a href="#campus">On campus</a></li>
                     <li><a href="#">Online</a></li>
                     <li><a href="#">Real world</a></li>
                     <a href="#"><button>Login</button></a>
@@ -41,13 +41,17 @@
     
     <div class="main">
         <!-- Banner -->
-        <div class="banner">
+        <div class="banner" id="banner">
+            <video autoplay muted loop preload="auto" width="100%" height="100%">
+            <source src="resources/videos/Pexels Videos 2655.mp4">
+            Your broswer does not support the video tag.
+            </video> 
             <div class="image-container">
                 <img src="resources/images/banner.jpg" alt="banner picture">
             </div>
             <div class="text-container">
                 <div class="text">
-                    <h1>Afterwork learning can be easy</h1>
+                    <h1>Afterwork learning that works</h1>
                     <h3>Learn skills to raise your pay at spare time.</h3>
                 </div>
                 <div class="CTA-sign-up">
@@ -55,63 +59,67 @@
                 </div>
             </div>
         </div>
-        <!-- On Campus -->
-        <div class="campus">
-            <div class="campus-goal">
-                <div class="image-container">
-                    <img src="resources/images/information-main.jpg" alt="on campus learning">
+        <div class="products">
+            <!-- On Campus -->
+            <div class="campus" id="campus">
+                <div class="campus-pitch">
+                    <div class="image-container">
+                        <img src="resources/images/information-main.jpg" alt="on campus learning">
+                    </div>
+                    <div class="text-container">
+                        <h2>It doesn't hurt keep practicing</h2>
+                        <h4>
+                            “Those people who develop the ability to continuously acquire new and better forms of knowledge that they can apply to their work and to their lives will be the movers and shakers in our society for the indefinite future.”
+                        </h4>
+                        <h5>Brain Tracy</h5>
+                    </div>
                 </div>
-                <div class="text-container">
-                    <h2>It doesn't hurt keep practicing</h2>
-                    <h4>
-                        “Those people who develop the ability to continuously acquire new and better forms of knowledge that they can apply to their work and to their lives will be the movers and shakers in our society for the indefinite future.”
-                    </h4>
-                    <h5>Brain Tracy</h5>
+    
+                <div class="campus-features"> 
+                    <div class="cf1">
+                        <div class="image-container">
+                            <img src="resources/images/information-orientation.jpg" alt="orientation">
+                        </div>
+                        <div class="text-container">
+                            <h3>Explore free orientation</h3>
+                            <h4>..description needed</h4>
+                            <a id="read-more" href="#">Read more</a>
+                        </div>
+                    </div>
+                    <div class="cf2">
+                        <div class="image-container">
+                            <img src="resources/images/information-campus.jpg" alt="campus">
+                        </div>
+                        <div class="text-container">
+                            <h3>Find campus close to you</h3>
+                            <h4>..description needed</h4>
+                            <a id="read-more" href="#">Read more</a>
+                        </div>
+                    </div>
+                    <div class="cf3">
+                        <div class="image-container">
+                            <img src="resources/images/information-guest-lecture.jpg" alt="lecturer">
+                        </div>
+                        <div class="text-container">
+                            <h3>Connect with lectuers</h3>
+                            <h4>..description needed</h4>
+                            <a id="read-more" href="#">Read more</a>
+                        </div>
+                    </div>
                 </div>
             </div>
-
-            <div class="campus-features"> 
-                <div class="cf1">
-                    <div class="image-container">
-                        <img src="resources/images/information-orientation.jpg" alt="orientation">
-                    </div>
-                    <div class="text-container">
-                        <h3>Explore free orientation</h3>
-                        <h4>..description needed</h4>
-                        <a id="read-more" href="#">Read more</a>
-                    </div>
-                </div>
-                <div class="cf2">
-                    <div class="image-container">
-                        <img src="resources/images/information-campus.jpg" alt="campus">
-                    </div>
-                    <div class="text-container">
-                        <h3>Find campus close to you</h3>
-                        <h4>..description needed</h4>
-                        <a id="read-more" href="#">Read more</a>
-                    </div>
-                </div>
-                <div class="cf3">
-                    <div class="image-container">
-                        <img src="resources/images/information-guest-lecture.jpg" alt="lecturer">
-                    </div>
-                    <div class="text-container">
-                        <h3>Connect with lectuers</h3>
-                        <h4>..description needed</h4>
-                        <a id="read-more" href="#">Read more</a>
-                    </div>
-                </div>
+        
+            <!-- Online -->
+            <div class="online">
+    
             </div>
-        </div>
-        <!-- Online -->
-        <div class="online">
+            <!-- Real World -->
+            <div class="realworld">
+    
+            </div>
 
         </div>
-        <!-- Real World -->
-        <div class="realworld">
-
-        </div>
-    </div>
+        
 
     <footer>
         <div class="copyright">
