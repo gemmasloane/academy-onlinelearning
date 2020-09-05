@@ -207,10 +207,7 @@ i {
     background-color: rgba(145, 48, 48, 0.5);
     z-index: 10;
 }
-.banner .text-container .text,
-.banner .text-container .CTA-sign-up {
-    
-}
+
 .banner .text-container h1 {
     margin-bottom: 0.5rem;
     display: flex;
@@ -222,29 +219,78 @@ i {
     background-color: black;
     padding: 5px 20px;
     border-radius: 5px;
-    
-
 }
 
 
 /* Products */
 .products {
     position: relative;
-    top: 600px;
+    top: 400px;
     background-color: white;
     opacity: 0.95;
 }
-
-/* On Campus */
-.campus-pitch .image-container img {
+.campus {
     display: flex;
-    padding: 32px 24px;
-    width: 60%;
-    height: auto;
 }
 
+/* On Campus */
+.campus-summary {
+    display: table;
+    margin: 32px 24px;
+}
+
+
+.campus-summary .image-container {
+    display: block;
+}
+
+
+.campus-summary .image-container img {
+    width: 100%;
+}
+
+
+.campus-summary .text-container {
+    display: table-caption;
+    caption-side: bottom;
+    margin: 32px 0px;
+
+}
+.campus-summary .text-container h2 {
+    margin-bottom: 24px;
+}
+.cf1, 
+.cf2, 
+.cf3 {
+    display: table;
+}
+.cf1 .image-container {
+    display: table-cell;
+}
+
+.cf1 .text-container {
+    display: table-cell;
+    caption-side: 
+}
+
+.campus-features .image-container img{
+    
+    width: 35%;
+    height: auto;
+}
 /* Online */
 
 /* Real World */
 
 /* Footer */
+/*
+footer {
+    position: fixed;
+    bottom: 0;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    height: 30px;
+    width: 100%;
+}   
+*/
