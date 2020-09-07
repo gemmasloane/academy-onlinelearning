@@ -259,10 +259,14 @@ i {
 .campus-summary .text-container h2 {
     margin-bottom: 24px;
 }
-.cf1, 
-.cf2, 
-.cf3 {
+
+.campus-features {
+    border-left: rgb(155, 155, 155) 1px solid;
+    margin-top: 16px;
+}
+.cf {
     display: table;
+    margin: 16px;
 }
 .cf1 .image-container {
     display: table-cell;
@@ -278,8 +282,58 @@ i {
     width: 35%;
     height: auto;
 }
-/* Online */
 
+
+/* Online */
+.online {
+    margin: 32px 72px;
+    background-color: rgb(205, 205, 205);
+    text-align: center;
+}
+
+.row-course-list {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin: 32px 72px;
+}
+
+.course {
+    display: table;
+    margin: 32px 32px;
+    text-align: left;
+    background-color: white;
+}
+
+.course .image-container {
+    margin-bottom: 16px;
+}
+
+.course .image-container img {
+    height: auto;
+    vertical-align: center;
+    margin: ;
+}
+
+.course .text-container {
+    padding: 16px;
+    padding-bottom: 24px;
+}
+
+.course .text-container h4 {
+    font-weight: 100;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.9rem;
+}
+
+.course .text-container h3 {
+    font-weight: 900;
+}
+
+.course .text-container p {
+    text-transform: uppercase;
+    padding: 8px 0px;
+}
 /* Real World */
 
 /* Footer */
