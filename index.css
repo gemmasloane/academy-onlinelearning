@@ -227,28 +227,28 @@ i {
     position: relative;
     top: 400px;
     background-color: white;
-    opacity: 0.95;
+    opacity: 0.98;
 }
+
+
+/* On Campus */
+
 .campus {
     display: flex;
 }
 
-/* On Campus */
 .campus-summary {
     display: table;
     margin: 32px 24px;
 }
 
-
 .campus-summary .image-container {
     display: block;
 }
 
-
 .campus-summary .image-container img {
     width: 100%;
 }
-
 
 .campus-summary .text-container {
     display: table-caption;
@@ -286,15 +286,19 @@ i {
 
 /* Online */
 .online {
-    margin: 32px 72px;
     background-color: rgb(205, 205, 205);
     text-align: center;
 }
 
-.row-course-list {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
+.online h2 {
+    padding-top: 32px;
+}
+
+.course-list {
+    display: grid;
+    box-sizing: content-box;
+    grid-row-gap: 1rem;
+    grid-template-columns: auto auto auto;
     margin: 32px 72px;
 }
 
@@ -310,9 +314,9 @@ i {
 }
 
 .course .image-container img {
+    width: 100%;
     height: auto;
     vertical-align: center;
-    margin: ;
 }
 
 .course .text-container {
@@ -334,7 +338,55 @@ i {
     text-transform: uppercase;
     padding: 8px 0px;
 }
+
+
 /* Real World */
+
+.realworld {
+    margin: 32px 0px;
+}
+
+.realworld h2 {
+    text-align: center;
+    margin: 32px;
+    display: block;
+}
+ .flex {
+    display: flex;
+ }
+
+.project-demo {
+    display: table;
+    caption-side: bottom;
+    margin: 32px 24px;
+}
+
+.project-demo video {
+    width: 60%;
+}
+
+.project-demo .text-container {
+    display: table-caption;
+}
+
+.project-list {
+    display: table;
+}
+
+.pl {
+    display: grid;
+    grid-row: auto auto;
+}
+
+.pl .image-container img {
+    display: table-cell;
+    width: 30%;
+}
+
+.pl .text-container {
+    display: table-cell;
+
+}
 
 /* Footer */
 /*
@@ -348,3 +400,6 @@ footer {
     width: 100%;
 }   
 */
+
+
+add grid elements notes to ppt

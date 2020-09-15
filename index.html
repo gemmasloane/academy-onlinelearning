@@ -10,7 +10,7 @@
 
 <body>
     <header>
-        <a class="title" href="#banner">
+        <a class="title" href="#home">
             <div id="logo">
                 <img src="resources/images/ic-logo.svg" alt="Business Logo">
             </div>
@@ -24,15 +24,15 @@
                 <ul class="desktop">
                     <li><a href="#campus">On campus</a></li>
                     <li><a href="#online">Online</a></li>
-                    <li><a href="#">Real world</a></li>
+                    <li><a href="#realworld">Real world</a></li>
                     <a href="#"><button>Login</button></a>
                 </ul>
             </nav>
             <nav>
                 <ul class="mobile">
-                    <li><a href="#"><img src="resources/images/ic-on-campus.svg" alt="On Canpus"></a></li>
-                    <li><a href="#"><img src="resources/images/ic-online.svg" alt="Online"></a></li>
-                    <li><a href="#"><i class="fas fa-globe-americas"></i></a></li>
+                    <li><a href="#campus"><img src="resources/images/ic-on-campus.svg" alt="On Canpus"></a></li>
+                    <li><a href="#online"><img src="resources/images/ic-online.svg" alt="Online"></a></li>
+                    <li><a href="#realworld"><i class="fas fa-globe-americas"></i></a></li>
                     <button><a href="#"><img src="resources/images/ic-login.svg" alt="Login"></a></button>
                 </ul>
             </nav>
@@ -41,7 +41,7 @@
     
     <div class="main">
         <!-- Banner -->
-        <div class="banner" id="banner">
+        <div class="banner" id="home">
             <video autoplay muted loop preload="auto" width="100%" height="100%">
             <source src="resources/videos/Pexels Videos 2655.mp4">
             Your broswer does not support the video tag.
@@ -55,7 +55,7 @@
                     <h3>Learn skills to raise your pay at spare time.</h3>
                 </div>
                 <div class="CTA-sign-up">
-                    <span>Start now</span>
+                    <span><a href="#online">Start Now</a></span>
                 </div>
             </div>
         </div>
@@ -114,7 +114,7 @@
             <div class="online" id="online">
                 <h2>Start learning</h2>
                 <div class="course-list">
-                    <div class="row-course-list">
+                    
                         <div class="course">
                             <div class="image-container">
                                 <img src="resources/images/course-software.jpg" alt="software engineering">
@@ -151,9 +151,8 @@
                                 </h4>
                             </div>
                         </div>
-                    </div>
+                    
 
-                    <div class="row-course-list">
                         <div class="course">
                             <div class="image-container">
                                 <img src="resources/images/course-data.jpg" alt="data">
@@ -190,7 +189,7 @@
                                 </h4>
                             </div>
                         </div>
-                    </div>     
+                        
                 </div>
 
                     <!--img responsive to the box, is it bc i gave an image-container for each img?? -->
@@ -199,48 +198,50 @@
             <!-- Real World -->
             <div class="realworld" id="realworld">
                 <h2>Real-world Corporate Project</h2>
-                <div class="project-demo">
-                    <div class="image-container">
-                        <video autoplay muted loop preload="auto" width="60%" height="auto">
-                            <source src="resources/videos/thesis.mp4" >
-                        </video> 
-                    </div>
-                    <div class="text-container">
-                        <h2>Reimagine urban</h2>
-                        <h4>
-                            project description
-                        </h4>
-                    </div>
-                </div>
-    
-                <div class="project-list"> 
-                    <div class="pl">
+                <div class="flex">
+                    <div class="project-demo">
                         <div class="image-container">
-                            <img src="resources/images/thesis-fisma.jpg" alt="Fisma">
+                            <video autoplay muted loop preload="auto" width="60%" height="auto">
+                                <source src="resources/videos/thesis.mp4" >
+                            </video> 
                         </div>
                         <div class="text-container">
-                            <h3>Fisma: Design and Prototype</h3>
-                            <h4>Designer showcase of new prototype product</h4>
+                            <h3>Reimagine urban</h2>
+                            <h4>
+                                project description
+                            </h4>
                         </div>
                     </div>
-                    <div class="pl">
-                        <div class="image-container">
-                            <img src="resources/images/thesis-now-and-then.jpg" alt="now and then">
+        
+                    <div class="project-list"> 
+                        <div class="pl">
+                            <div class="image-container">
+                                <img src="resources/images/thesis-fisma.jpg" alt="Fisma">
+                            </div>
+                            <div class="text-container">
+                                <h3>Fisma: Design and Prototype</h3>
+                                <h4>Designer showcase of new prototype product</h4>
+                            </div>
                         </div>
-                        <div class="text-container">
-                            <h3>Now and then</h3>
-                            <h4>Research study about new york</h4>
+                        <div class="pl">
+                            <div class="image-container">
+                                <img src="resources/images/thesis-now-and-then.jpg" alt="now and then">
+                            </div>
+                            <div class="text-container">
+                                <h3>Now and then</h3>
+                                <h4>Research study about new york</h4>
+                            </div>
                         </div>
-                    </div>
-                    <div class="pl">
-                        <div class="image-container">
-                            <img src="resources/images/nikita-vantorin-F6Gk6nhwlmY-unsplash.jpg" alt="AI" width="60%">
+                        <div class="pl">
+                            <div class="image-container">
+                                <img src="resources/images/nikita-vantorin-F6Gk6nhwlmY-unsplash.jpg" alt="AI" width="60%">
+                            </div>
+                            <div class="text-container">
+                                <h3>Imagine the Future Bar</h3>
+                                <h4>Projection on AI-based drink menu</h4>
+                            </div>
                         </div>
-                        <div class="text-container">
-                            <h3>Imagine the Future Bar</h3>
-                            <h4>Projection on AI-based drink menu</h4>
-                        </div>
-                    </div>
+                    </div> 
                 </div>
             </div>
 
